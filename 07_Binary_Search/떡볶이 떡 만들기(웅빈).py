@@ -6,6 +6,7 @@ def cutting(array, m, start, end):
     # 절단된 떡의 길이의 합
     sum = 0
 
+    # 떡 자르기    
     for i in range(end, -1, -1):
         if array[i] < mid:
             break
