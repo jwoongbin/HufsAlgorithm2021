@@ -17,7 +17,7 @@ def cutting(array, m, start, end):
     if sum == m:
         return mid
 
-    # 절단된 떡의 길이의 합이 m 보다 클 경우
+    # 절단된 떡의 길이의 합이 m 보다 클 경우 오른쪽 부분 탐색
     elif sum > m:
         return cutting(array, m, mid, end)
     # 절단된 떡의 길이의 합이 m 보다 작을 경우 시작점의 길이를 -1씩 감소
