@@ -17,8 +17,8 @@ def binary_search(array, target, start, end):
 
 
 n = int(input())
-array = list(map(int, input().split()))
-array.sort()
+array1 = list(map(int, input().split()))
+array1.sort()
 
 m = int(input())
 array2 = list(map(int, input().split()))
