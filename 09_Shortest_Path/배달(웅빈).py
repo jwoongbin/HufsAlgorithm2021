@@ -3,7 +3,6 @@ import heapq
 def solution(N, road, K):
     answer = 0
     INF = int(1e9)
-    global distance, graph
     distance = [INF] * (N + 1)
     graph = [[] for i in range(N + 1)]
 
